@@ -1,0 +1,105 @@
+/* Swiper custom styles */
+.swiper {
+    width: 100%;
+    max-width: 1000px;
+  
+    margin: 20px auto;
+    aspect-ratio: 10 / 4; 
+  }
+  
+  .swiper-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #eee;
+    background-size: cover;
+      background-position: center; 
+      background-repeat: no-repeat;
+    font-size: clamp(0.6rem, 1.8vw, 1.3rem);
+    margin: 0;
+  }
+  .slide1 {
+      background-image: url('../images/slide1.png');
+      padding: 10% 0 0 10%;
+  }
+  .slide2 {
+      background-image: url('../images/slide2.png');
+      padding: 10% 0 0 60%;
+  }
+  
+  .slide3 {
+      background-image: url('../images/slide3.png');
+      padding: 10% 0 0 8%;
+  }
+  .slide4 {
+      background-image: url('../images/slide4.png');
+      padding: 10% 0 0 55%;
+  }
+  .akapit {
+      margin: 1% 0 1% 0;
+      text-align: justify;
+  }
+
+  /*swiper web design*/
+
+.webdesign, .grafika {
+    flex: 1 1 300px;
+    min-width: 300px;
+
+}
+.prawy {
+    flex: 1 1 300px;
+    min-width: 500px;
+}
+.swiper-wb {
+  width: 100%;
+  max-width: 420px;
+  margin: auto;
+  aspect-ratio: 2 / 3; 
+}
+
+.swiper-slide-wb {
+  background: #fff;
+	background-position: center; 
+    background-repeat: no-repeat;
+  font-size: clamp(0.8rem, 2.0vw, 1.5rem);
+  margin: 0;
+}
+.slide1-wb {
+	background-image: url('../images/slide1-wb.png');
+	padding: 10% 0 0 10%;
+}
+.slide2-wb {
+	background-image: url('../images/slide2-wb.png');
+	padding: 10% 0 0 10%;
+}
+.slide3-wb {
+	background-image: url('../images/slide3-wb.png');
+	padding: 10% 0 0 10%;
+}
+.slide4-wb {
+	background-image: url('../images/slide4-wb.png');
+	padding: 10% 0 0 10%;
+}
+/* Swiper GFX */
+
+.slide1-gfx {
+	background-image: url('../images/slide1-gfx.png');
+	padding: 10% 0 0 10%;
+}
+.slide2-gfx {
+	background-image: url('../images/slide2-gfx.png');
+	padding: 10% 0 0 10%;
+}
+.slide3-gfx {
+	background-image: url('../images/slide3-gfx.png');
+	padding: 10% 0 0 10%;
+}
+.slide4-gfx {
+	background-image: url('../images/slide4-gfx.png');
+	padding: 10% 0 0 10%;
+}
+.slide5-gfx {
+	background-image: url('../images/slide5-gfx.png');
+	padding: 10% 0 0 10%;
+}

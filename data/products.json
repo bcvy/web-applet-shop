@@ -1,0 +1,38 @@
+[
+  {
+    "name": "HTML Portfolio Template",
+    "description": "Responsive and modern one-page portfolio for developers.",
+    "image": "images/products/template1.jpg",
+    "link": "https://gumroad.com/l/yourproduct1"
+  },
+  {
+    "name": "Business Website Template",
+    "description": "Clean HTML template for small business or freelance sites.",
+    "image": "images/products/template2.jpg",
+    "link": "https://gumroad.com/l/yourproduct2"
+  },
+  {
+    "name": "Poster Design Template",
+    "description": "Editable poster for events, music or promotion – print-ready.",
+    "image": "images/products/poster1.jpg",
+    "link": "https://gumroad.com/l/yourproduct3"
+  },
+  {
+    "name": "Flyer Template A5",
+    "description": "Versatile A5 flyer template for business or events.",
+    "image": "images/products/flyer1.jpg",
+    "link": "https://gumroad.com/l/yourproduct4"
+  },
+  {
+    "name": "JavaScript Contact Widget",
+    "description": "Floating contact panel you can embed in any HTML site.",
+    "image": "images/products/widget1.jpg",
+    "link": "https://gumroad.com/l/yourproduct5"
+  },
+  {
+    "name": "Modern Logo Pack",
+    "description": "Set of 10 vector logos ready to customize in Illustrator.",
+    "image": "images/products/logo1.jpg",
+    "link": "https://gumroad.com/l/yourproduct6"
+  }
+]

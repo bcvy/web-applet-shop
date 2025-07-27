@@ -1,0 +1,42 @@
+#social-widget {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 12px;
+  padding: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  z-index: 9999;
+}
+
+#social-widget a img {
+  width: 24px;
+  height: 24px;
+  transition: transform 0.2s ease;
+}
+
+#social-widget a:hover img {
+  transform: scale(1.15);
+}
+
+@media (max-width: 1200px) {
+  #social-widget {
+    top: unset;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    transform: none;
+    flex-direction: row;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.75);
+    padding: 8px;
+    border-top: 1px solid #ccc;
+  }
+
+  #social-widget a i {
+    font-size: 1.5rem;
+  }
+}

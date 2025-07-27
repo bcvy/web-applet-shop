@@ -1,0 +1,98 @@
+/* ACCESSIBILITY */
+		/* Przycisk aktywujący widżet */
+		.hidden {
+			display: none !important;
+		}
+	
+		#toggle-widget {
+		  position: fixed;
+		  bottom: 1rem;
+		  right: 1rem;
+		  font-size: 1.5rem;
+		  background: #0044aa;
+		  color: #fff;
+		  border: none;
+		  padding: 0.6rem;
+		  border-radius: 50%;
+		  cursor: pointer;
+		  z-index: 10000;
+		}
+
+		/* Kontener widżetu */
+		#accessibility-widget {
+		  position: fixed;
+		  bottom: 4.5rem;
+		  right: 1rem;
+		  background: #fff;
+		  border: 2px solid #ccc;
+		  border-radius: 10px;
+		  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+		  padding: 0.8rem;
+		  z-index: 9999;
+		  display: flex;
+		  flex-direction: column;
+		  gap: 0.4rem;
+		  font-size: 0.95rem;
+		}
+
+		#accessibility-widget button {
+		  background: #f0f0f0;
+		  border: none;
+		  padding: 0.4rem 0.6rem;
+		  border-radius: 6px;
+		  cursor: pointer;
+		  transition: background 0.3s;
+		}
+
+		#accessibility-widget button:hover {
+		  background: #ddd;
+		}
+
+		/* Tryb wysokiego kontrastu */
+		.high-contrast {
+		  background-color: #000 !important;
+		  color: #fff !important;
+		}
+		
+		.high-contrast .main .swiper-slide {
+		  background-color: #000 !important;
+		  color: #fff !important;
+		}
+
+		.high-contrast .main {
+		  background-color: #000 !important;
+		  color: #fff !important;
+		}
+
+		.high-contrast a {
+		  color: #00ffff !important;
+		}
+
+		/* Czcionka dyslektyczna */
+		.dyslexic-font {
+		  font-family: 'OpenDyslexic', Arial, sans-serif !important;
+		}
+
+		/* Podkreślone linki */
+		.underline-links a {
+		  text-decoration: underline !important;
+		}
+
+		/* Dynamiczne powiększanie tekstu */
+		body[data-font-size="100"] { font-size: 100%; }
+		body[data-font-size="120"] { font-size: 120%; }
+		body[data-font-size="140"] { font-size: 140%; }
+
+		/* Czcionka OpenDyslexic (Google Fonts link) */
+		@font-face {
+		  font-family: 'OpenDyslexic';
+		  src: url('../fonts/OpenDyslexic-Regular.woff') format('woff');
+		  font-weight: normal;
+		  font-style: normal;
+		}
+		.dyslexic-font {
+		  font-family: 'OpenDyslexic', Arial, sans-serif !important;
+		}
+		.dyslexic-font .swiper-slide{
+			font-family: 'OpenDyslexic', Arial, sans-serif !important;
+		}
