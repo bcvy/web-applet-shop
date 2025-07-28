@@ -12,7 +12,7 @@ async function loadProducts() {
         <img src="${product.image}" alt="${product.name}">
         <h3>${product.name}</h3>
         <p>${product.description}</p>
-        <a href="${product.link}" class="buy-button" target="_blank">Buy now</a>
+        <button onclick="openModal('${product.id}')" class="view-details">View details</button>
       `;
 
       container.appendChild(card);
